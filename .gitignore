@@ -1,0 +1,22 @@
+# Ignora los archivos y directorios generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignora el entorno virtual de Python
+venv/
+
+# Ignora los datos de MongoDB
+mongodb_data/
+
+# Ignora los archivos de carga (uploads) que podrían generarse en la aplicación
+uploads/
+
+# Ignora los archivos y directorios generados por Docker
+.docker/
+docker-compose.yml
+docker-compose.override.yml
+
+# ignorar las variables de entorno
+.env
